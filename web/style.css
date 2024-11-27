@@ -1,0 +1,124 @@
+:root {
+    --navy-color: #003366;
+    --orange-color: #FD7702;
+    --black-color: #444444;
+    --white-color: #f6f9ff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+h1, h2 {
+    color: #333;
+}
+
+.logo-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+}
+
+.text-center {
+    font-weight: 900;
+    font-size: 1.1em;
+    color: var(--navy-color);
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: var(--navy-color);
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 12px 20px;
+}
+
+.error-message {
+    font-size: 0.85em;
+    color: red;
+}
+
+
+
+/* BUTTON STYLE */
+.btn-primary {
+    background-color: var(--navy-color);
+    border-color: var(--navy-color);
+    color: var(--white-color);
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+    border-color: #004080;
+}
+
+.btn-warning {
+    background-color: var(--orange-color);
+    border-color: var(--orange-color);
+    color: var(--white-color);
+}
+
+.btn-warning:hover {
+    background-color: #ff8c1a;
+    border-color: #ff8c1a;
+    color: var(--white-color);
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: var(--white-color);
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+
+
+/* SWEETALERT2 CUSTOMIZATION */
+.swal2-popup {
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+}
+
+.swal2-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.swal2-html-container {
+    font-size: 1.1em;
+}
+
+.swal2-confirm {
+    padding: 8px 25px !important;
+    background-color: var(--navy-color) !important;
+    border-color: var(--navy-color) !important;
+}
+
+.swal2-confirm:hover {
+    background-color: #004080 !important;
+    border-color: #004080 !important;
+}
+
+.swal2-cancel {
+    padding: 8px 25px !important;
+    background-color: var(--orange-color) !important;
+    border-color: var(--orange-color) !important;
+}
+
+.swal2-cancel:hover {
+    background-color: #ff8c1a !important;
+    border-color: #ff8c1a !important;
+}
