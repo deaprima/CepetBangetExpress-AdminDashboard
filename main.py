@@ -73,4 +73,4 @@ def delete_data(id_admin):
     collection.delete_one(query)
     return "Data berhasil dihapus"
 
-eel.start('index.html', size=(1300, 800))
+eel.start('index.html', size=(1300, 1000))
